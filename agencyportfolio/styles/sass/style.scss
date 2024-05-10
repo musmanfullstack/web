@@ -1,0 +1,80 @@
+/*============================================
+
+   Theme Name: Unded - Creative Agency & Portfolio HTML Template
+   Author : envalab
+   Author URI: https://themeforest.net/user/envalab
+   Description: Unded - Creative Agency & Portfolio HTML Template
+   Version: 1.0
+
+==============================================*/
+/* CSS Index
+==============================================
+
+    01. Theme Default CSS
+    02. Header Style
+    03. Footer
+    04. Hero
+    05. Service Style
+    06. Animate-marque
+    07. Project Style
+    08. Testimonial
+    09. Partners
+    10. Features
+    11. Team Style
+    12. Video Style
+    13. Event Style
+    14. Blog Style
+    15. Home-style-2
+    16. Home-style-3
+    17. Home-style-4
+    18. About Page
+    19. Services Page
+    20. Team Page
+    21. Porfolio page
+    22. Pricing Page
+    23. Contact Page
+    24. Blog Page
+    25. Blog Single Page
+
+==============================================*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/home-style-2";
+@import "page/home-style-3";
+@import "page/home-style-4";
+@import "page/about";
+@import "page/services";
+@import "page/team";
+@import "page/portfolio";
+@import "page/pricing";
+@import "page/contact";
+@import "page/blog";
+@import "page/blog-single";
+@import "page/404";
